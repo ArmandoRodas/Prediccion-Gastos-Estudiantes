@@ -11,7 +11,7 @@ def load_pipeline():
 
 pipeline = load_pipeline()
 
-st.title("📊 Predicción de gastos estudiantiles")
+st.title("📊 Predicción de Gastos Dia de Universidad")
 
 # 2) Inputs numéricos (que no necesitan mapeo)
 comidas_fuera = st.number_input("Comidas fuera de casa", min_value=0, step=1)
